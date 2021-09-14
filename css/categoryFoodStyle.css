@@ -1,0 +1,65 @@
+
+
+
+/* Start features section  style */
+
+.features .card{
+    height: 110px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 25px;
+    border: #000000;
+}
+
+.features .card-body h5{
+    font-weight: bold;
+    color: #262626;
+    font-family: Montserrat;
+}
+
+.features .card-body p{
+    color: #262626;
+    font-size: 14px;
+}
+/* End features section  style */
+
+
+/* Start Subscribe newslette section  style */
+.subscribe_letter{
+    height: 200px;
+    background-color: #FFFFFF;
+    border: #707070;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.subscribe_letter .subscribe-left{
+    padding: 30px;
+}
+.subscribe_letter .subscribe-left h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #262626;
+    border: #707070;
+}
+.subscribe_letter .subscribe-left p{
+    font-size: 24px;
+    color: #262626;
+    border: #707070;
+}
+.subscribe_letter .subscribe-right{
+    padding: 60px 50px;
+}
+
+.subscribe_letter .subscribe-right input{
+    border-radius: 15px;
+}
+.subscribe_letter .subscribe-right button{
+    background-color: #F98065;
+    color: #FFFFFF;
+    font-size: 21;
+    font-weight: bold;
+    border-radius: 15px;
+}
+/* End Subscribe newslette section  style */

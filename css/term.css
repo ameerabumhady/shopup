@@ -1,0 +1,25 @@
+
+.term_header{
+    background-image: linear-gradient(to right, #F98065, #FFB035);
+    height: 200px;
+    padding: 60px;
+    border-radius: 25px;
+}
+
+.term_header h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+}
+
+.update_terms{
+    margin: 20px 0;
+}
+.update_terms p{
+    color: #F98065;
+    font-size: 24;
+}
+.terms_conditions p{
+    font-size: 24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

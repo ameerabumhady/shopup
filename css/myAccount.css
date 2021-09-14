@@ -1,0 +1,171 @@
+.myAccount-side-bar{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 15px 15px 15px 0;
+    padding-bottom: 10px;
+}
+
+.myAccount-side-bar h2{
+    font-size: 16px;
+    font-weight: bold;
+    /* font-family: montser; */
+}
+
+.myAccount-side-bar hr{
+    /* width: ; */
+    color: #E9E9E9;
+}
+
+.myAccount-side-bar ul{
+    list-style-type: none;
+}
+
+.myAccountList{
+    padding: 10px 10px 10px 0;
+}
+
+.myAccount-side-bar a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #262626;
+    
+}
+
+.myAccount-side-bar a:hover,
+.myAccount-side-bar .active{
+    color: #F98065;  
+    font-weight: bold; 
+}
+
+/*  */
+.myAccount-right-section{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 15px 0 15px 15px;
+    padding-bottom: 50px;
+}
+.title-right-section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Start style for my Account Orders page */
+.select-style{
+    background-color: #F8F8F8;
+    height: 40px;
+}
+.table td{
+    font-size: 16px;
+}
+.num{
+    padding-right: 5px;
+}
+.others{
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #262626;
+    padding: 5px;
+}
+.OrderNumber{
+    font-size: 13px;
+}
+.orderStatusOk{
+    color: #5ABA31;
+    font-weight: bold;
+}
+.orderStatusFalse{
+    color: #4A90E2;
+    font-weight: bold;
+}
+.btn-details{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    border: solid 1px #545454;
+    color: #545454;
+
+}
+label{
+    text-transform: capitalize;
+}
+/* End style for my Account Orders page */
+
+/* Start style for my Account Address page */
+.address-text-center{
+    display: flex;
+    justify-content: space-between;
+}
+.addAddress-left{
+    height: 260px;
+    border: solid 1px #E8E8E8;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.addAddress-left p{
+    background-color: #FFFFFF;
+    color: #F98065;
+    font-size: 32px;
+}
+.addAddress-left a{
+    color: #F98065;
+    text-decoration: none;
+}
+.myAddress-right{
+    height: 260px;
+    border: solid 1px #E8E8E8;
+    border-radius: 25px;
+    padding: 20px;
+}
+.myAddress-right ul{
+    list-style-type: none;
+}
+.btn-delete{
+    width: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #262626;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: solid 1px #262626;
+}
+.btn-delete:hover{
+    font-weight: bold;
+    background-color: #262626;
+    color: #FFFFFF;
+}
+.btn-edit{
+    width: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #F98065;
+    padding: 10px;
+}
+.btn-edit:hover{
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #F98065;
+}
+/* End style for my Account Address page */
+/*  */
+.myAccount-right-section input{
+    height: 60px;
+}
+.btn-cancel{
+    width: 130px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.btn-save{
+    width: 240px;
+    height: 60px;
+    background-color: #F98065;
+    color: #FFFFFF;
+    border-radius: 15px;
+}

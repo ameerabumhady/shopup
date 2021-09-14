@@ -1,0 +1,74 @@
+footer{
+    background-color: #FFEDE0;
+}
+.socialMedia{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.socialMedia span{
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.socialMedia a i{
+    font-size: 30px;
+}
+.down_android_apple{
+    margin-top: 10px;
+}
+.down_android_apple img{
+     border-radius: 15px;   
+}
+/* Start links div style sheet */
+.downloads_links{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+}
+.links_info h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #262626;
+}
+.links_info ul{
+    list-style: none;
+}
+.links_info li a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #262626;
+}
+.links_info li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* End links div style sheet */
+
+/* Start copyRight div style sheet */
+.copyright{
+    height: 70px;
+    line-height: 70px;
+    background-color: #FFEDE0;
+}
+.right_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.imgVisa{
+    padding: 10px;
+    float: left;
+}
+.imgCredit{
+    padding: 10px;
+    float: left;
+}
+.imgPaypal{
+    padding: 10px;
+    float: left;
+    
+}
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* End copyRight div style sheet */

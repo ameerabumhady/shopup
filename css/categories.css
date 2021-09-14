@@ -1,0 +1,92 @@
+/* Start header and titel for category style  */
+.headContent-cat{
+    background-color: #F98065;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.category_header{   
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.category_header h2, h1{
+    font-family: Montserrat;
+    color: white;
+    font-size: 50;
+}
+.category_header h1{
+    font-weight: bold;
+}
+/* End header and titel for category style  */
+
+/* Start main Content for category style  */
+.sort-view-div{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.row-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent-category{
+    margin-top: 20px;
+}
+.mainContent-category .card{
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px #FAFAFA;
+}
+.mainContent-category .card a{
+    background-color: #F98065;
+    color: white;
+    border-radius: 15px;
+}
+.mainContent-category .price-span{
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mainContent-category .card-body{
+    margin: 10px;
+    padding: 5px;
+}
+.loadMore{
+    text-align: center;
+    
+}
+.loadMore button{
+    width: 260px;
+    height: 60px;
+    background-color: #F8F8F8;
+    border: #707070;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #262626;
+    padding: 15px;
+    margin: 60px 0px;
+    /* margin-top: 50px; */
+}
+/* End main Content for category style  */
+
+/* Start category sales single card */
+.womenBags-icon{
+    margin-top: -40px;
+}
+/* .card-single{
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+/* End category sales single card */
+
+/* Start category sales 3-cards */
+.card-3-card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* End category sales 3-cards */

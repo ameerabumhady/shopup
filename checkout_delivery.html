@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!-- Start links for style sheet bootstrap & font awesome & my owne Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <!-- End links for style sheet bootstrap & font awesome & my owne Style -->
+
+</head>
+<body>
+    <div class="container delevary-line">
+        <div class="track">
+            <!-- step one -->
+            <div class="step active"> 
+                <span class="icon"> <i class="fa fa-check"></i> </span> 
+                <span class="text">Cart</span> 
+            </div>
+            <!-- step two -->
+            <div class="step active"> 
+                <span class="icon"> <i class="fa fa-truck"></i> </span> 
+                <span class="text"> Delivery</span> 
+            </div>
+            <!-- step three -->
+            <div class="step"> 
+                <span class="icon"> <i class="fa fa-credit-card" aria-hidden="true"></i> </span> 
+                <span class="text"> Payment </span> 
+            </div>
+            <!-- step four -->
+            <div class="step"> 
+                <span class="icon"> <i class="fa fa-check-circle"></i> </span> 
+                <span class="text"> Confirmation </span> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 cart-right">
+                 <!-- Start add new delivery form  -->
+                 <form>
+                    <div class="form-row">
+                      <label for="">SHIPPING INFORMATION</label>
+                      <hr>
+
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Address Title</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Address Title">
+                      </div>
+
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">First Name & Last Name</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="First Name & Last Name">
+                      </div>
+
+                    </div>
+
+                    <div class="form-group col-md-12">
+                      <label for="inputAddress">Your Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                      <label for="inputAddress">Zip Code</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Zip Code">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                      <label for="inputAddress">Country</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Country">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <label for="inputAddress">City</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="City">
+                    </div>
+                    <!-- Mobile Number -->
+                    <div class="form-group col-md-6">
+                        <label for="inputAddress">Mobile Number</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputAddress">Phone Numer</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Phone Numer">
+                    </div>
+
+
+                    <div class="form-group col-md-12">
+                        <button type="submit" class="btn btn-cancel">Back to cart</button>
+                    </div>
+                    
+                </form>
+                <!-- End add new delivery form  -->
+            </div>
+            <div class="col-lg-3 cart-left">
+                <div class="flex-div">
+                    <div class="img-checkout">
+                        <!-- width="61" height="82" -->
+                        <img src="images/productCart/prod_cart_1.png" alt="">
+                    </div>
+                    <div>
+                        <p class="prod-name">flora print wrap dress</p>
+                        <p>color : <span class="value"> Blue </span> </p>
+                        <p>size : <span class="value"> 42 </span> </p>
+                        <p>qty : <span class="value"> 42 </span> </p>
+                    </div>
+                </div>
+
+                <div class="flex-div">
+                    <div class="img-checkout">
+                        <!-- width="61" height="82" -->
+                        <img src="images/productCart/prod_cart_1.png" alt="">
+                    </div>
+                    <div>
+                        <p class="prod-name">flora print wrap dress</p>
+                        <p>color : <span class="value"> Blue </span> </p>
+                        <p>size : <span class="value"> 42 </span> </p>
+                        <p>qty : <span class="value"> 42 </span> </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p class="title-totalCart">CART TOTALS</p>
+
+                <div class="flex-div">
+                    <span class="text-left">CART TOTALS</span> 
+                    <span class="text-right">$1,650.00</span>
+                </div>
+                <div class="flex-div">
+                    <span>Shipping</span> 
+                    <span >$20.00</span>
+                </div>
+                <hr>
+                <div  class="title-totalCart flex-div">
+                    <span >Total</span>
+                    <span class="num">$20.00</span>
+                </div>
+                <div style="margin-bottom: 200px;"></div>
+                <!-- check out button -->
+                <div class="btn-checkout-div">
+                    <a href="" class="btn btn-checkout">checkout</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Start script sorce for jquiry & bootstrap & my owne javascript -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/myJS.js"></script>
+    <!-- End script sorce for jquiry & bootstrap & my owne javascript -->
+
+</body>
+</html>

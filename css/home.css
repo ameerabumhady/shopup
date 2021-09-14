@@ -1,0 +1,99 @@
+nav{
+    height: 100px;
+}
+header{
+    background-color: #FFF9EE;
+
+}
+.text-left{
+    margin-top: 50px;
+    /* margin-left: 100px; */
+}
+.img-right{
+    margin-top: -30px;
+    margin-left: -30%;
+    padding: 50px;
+}
+
+header div .shopButton{
+    background-color: #FCC0B2;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.btn-carousel{
+    background-color: #F98065;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    border-radius: 15px;
+}
+.btn-carousel:hover{
+    background-color: white;
+    color: #F98065;
+    border: solid 1px #F98065;
+}
+.title-name{
+    font-size: 48px;
+    color: #262626;
+    font-weight: bold;
+}
+.link-category{
+    font-size: 16px;
+    color: #262626;
+    font-weight: bold;
+}
+.cat-card{
+    width: 170px;
+    height: 220px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: solid 1px #dfdfdf;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.cat-card:last-child{
+    margin-right: 0px;    
+} 
+
+.title-cat-card h2{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*  */
+.newProduct-section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.newPro-card{
+    background-color: #FFFFFF;
+    height: 400px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 30px;
+}
+.newPro-card:last-child{
+    margin-right: 0px;    
+} 
+.title-new-card{
+    font-size: 24px;
+    padding: 15px;
+}
+.button-new-card{
+    margin-bottom: 20px;
+}
+/*  */
+
+.offers .btn-viewProduct{
+    width: 225px;
+    height: 50px;
+    padding: 30px;
+    background-color: #000000;
+    color: #F98065;
+    font-size: 16px;
+    border-radius: 25px;
+    border: solid 1px #F98065;
+}

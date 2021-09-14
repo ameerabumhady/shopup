@@ -1,0 +1,285 @@
+/*Start General Css*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+
+    color: #262626;
+}
+body{
+    background-color: #FDFDFD;
+}
+.myShadow{
+    box-shadow: 10px 10px 10px 10px #FAFAFA;
+}
+/*End General Css*/
+
+/* Start nav social media (headOfPage) */
+
+.headOfPage .navbar{
+    border: none;
+    border-radius: 0px;
+    background-color: #F6F6F6;
+    height: 50px;
+    margin-bottom: 0;
+}
+.headOfPage .navbar-inverse .navbar-nav>li>a{
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* .flex-nav{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.mynavbare{
+    margin-top: 0;
+    height: 120px;
+}
+.mynavbare .navbar{
+    border: none;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    height: 120px;
+    margin-top: 0;
+}
+.navbar ul{
+    line-height: 100px;
+}
+.mynavbare .navbar-inverse .navbar-nav>li>a{
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.mynavbare .navbar-inverse .navbar-nav>li>a:hover{
+    color: #F98065;
+    font-weight: bold;
+}
+
+.mynavbare .navbar-inverse .navbar-nav>.active>a, 
+.mynavbare .navbar-inverse .navbar-nav>.active>a:focus, 
+.mynavbare .navbar-inverse .navbar-nav>.active>a:hover{
+    color: #F98065;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.search_div{
+    margin-top: 30px;
+}
+.input-group{
+    width: 300px;
+    border-radius: 50px;
+}
+.inputMyStyle{
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+}
+.buttonMyStyle{
+    border-radius: 25px;
+    height: 50px;
+    width: 75px;
+    background-color: #F98065;
+}
+.col-icon{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+form button:hover{
+    background-color: #F98065;
+}
+/* End nav social media (headOfPage) */
+
+/* Start my navbar */
+
+.mynavbare .navbar-inverse .navbar-form .input-group{
+border: none;
+
+}
+/* End my navbar */
+
+/* End body style for general component in all pages */ 
+
+    /* Start features section  style */
+    .features .card{
+        height: 110px;
+        background-color: #FFFFFF;
+        padding: 10px;
+        border-radius: 25px;
+        border: #000000;
+    }
+
+    .features .card-body h5{
+        font-weight: bold;
+        color: #262626;
+        font-family: Montserrat;
+    }
+
+    .features .card-body p{
+        color: #262626;
+        font-size: 14px;
+    }
+    /* End features section  style */
+
+
+    /* Start Subscribe newslette section  style */
+    .subscribe_letter{
+        height: 200px;
+        background-color: #FFFFFF;
+        border: #707070;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .subscribe_letter .subscribe-left{
+        padding: 30px;
+    }
+    .subscribe_letter .subscribe-left h4{
+        font-size: 32px;
+        font-weight: bold;
+        color: #262626;
+        border: #707070;
+    }
+    .subscribe_letter .subscribe-left p{
+        font-size: 24px;
+        color: #262626;
+        border: #707070;
+    }
+    /* .subscribe_letter .subscribe-right */
+    .subscribe-right{
+        padding: 60px 50px;
+    }
+    /* .subscribe_letter .subscribe-right input */
+    .subscribe-right input{
+        border-radius: 15px;
+    }
+    /* .subscribe_letter .subscribe-right button */
+    .subscribe-right button{
+        background-color: #F98065;
+        color: #FFFFFF;
+        font-size: 21;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    /* End Subscribe newslette section  style */
+
+/* End body style for general component in all pages */
+
+
+/* Start footer style for all pages */
+
+    footer{
+        background-color: #FFEDE0;
+    }
+
+    /* Start copyRight div style sheet */
+    .downloads_links{
+        padding-top: 50px;
+        /* padding-bottom: 50px; */
+    }
+    .links_info h3{
+        font-size: 18px;
+        font-weight: bold;
+        color: #262626;
+    }
+    .links_info ul{
+        list-style: none;
+    }
+    .links_info li a{
+        font-size: 14px;
+        font-weight: normal;
+        color: #262626;
+    }
+    .links_info li a:hover{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    /* End copyRight div style sheet */
+
+    /* Start copyRight div style sheet */
+    .copyright{
+        height: 70px;
+        line-height: 70px;
+    }
+    .imgVisa{
+        padding: 10px;
+        float: left;
+    }
+    .imgCredit{
+        padding: 10px;
+        float: left;
+    }
+    .imgPaypal{
+        padding: 10px;
+        float: left;
+        
+    }
+    footer a{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    /* End copyRight div style sheet */
+
+/* End footer style for all pages */
+
+/* Start Privacy and Policy style */
+.privacy-header{
+    height: 400px;
+    margin-top: 50px;
+}
+.privacy-header h1{
+    color: #F98065;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 350px;
+}
+
+.main-privacy-content{
+    margin-top: 100px;
+}
+.privacry-content h2{
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.privacry-content p{
+    font-size: 24;
+}
+.privacry-content ul{
+    list-style-type: none;
+}
+/* End Privacy and Policy style */
+
+/* Start About Us style*/
+.mainContent-about{
+    margin-top: 20px;
+}
+.about-content{
+    margin-top: 20px;
+}
+.about-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #F98065;
+    margin-bottom: 35px;
+}
+.about-content p{
+    font-size: 24px;
+}
+.about-content p span{
+    font-weight: bold;
+}
+/* End About Us style*/

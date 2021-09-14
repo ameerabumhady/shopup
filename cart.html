@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!-- Start links for style sheet bootstrap & font awesome & my owne Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <!-- End links for style sheet bootstrap & font awesome & my owne Style -->
+
+</head>
+<body>
+    <div class="container delevary-line">
+        <div class="track">
+            <!-- step one -->
+            <div class="step active"> 
+                <span class="icon"> <i class="fa fa-check"></i> </span> 
+                <span class="text">Cart</span> 
+            </div>
+            <!-- step two -->
+            <div class="step active"> 
+                <span class="icon"> <i class="fa fa-truck"></i> </span> 
+                <span class="text"> Delivery</span> 
+            </div>
+            <!-- step three -->
+            <div class="step"> 
+                <span class="icon"> <i class="fa fa-credit-card" aria-hidden="true"></i> </span> 
+                <span class="text"> Payment </span> 
+            </div>
+            <!-- step four -->
+            <div class="step"> 
+                <span class="icon"> <i class="fa fa-check-circle"></i> </span> 
+                <span class="text"> Confirmation </span> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 cart-right">
+                <!-- Start Product Orders table  -->
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th colspan="2"> product </th>
+                        <th> price </th>
+                        <th> quantity </th>
+                        <th> total price </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <!-- order 1 -->
+                        <tr>
+                        <td class="cancel-icon">
+                            <a href=""><i class="fa fa-times-circle"></i></a>
+                        </td>
+                        <td>
+                            <!-- width="94" height="126" -->
+                            <img src="images/productCart/prod_cart_1.png" width="94" height="126" alt="">
+                              
+                        </td>
+                        <td class="">
+                            <p class="prod-category">women</p>
+                            <p class="prod-name">flora print wrap dress</p>
+                            <p>color : <span class="value"> Blue </span> </p>
+                            <p>size : <span class="value"> 42 </span> </p>
+                        </td>
+                        <td class="Price">$67.50</td>
+                        <td class="quantity">
+                            <a href="" class=""><i class="fa fa-minus minus-product"></i></a>
+                            <span class="quantityProduct"> 1 </span>
+                            <a href="" class=""><i class="fa fa-plus-circle plus-product"></i></a>
+                        </td>
+                        <td class="totalPrice">$67.50</td>
+                        </tr>
+                        
+                        <!-- order 2 -->
+                        <tr>
+                            <td class="cancel-icon">
+                                <a href=""><i class="fa fa-times-circle"></i></a>
+                            </td>
+                            <td>
+                                <!-- width="94" height="126" -->
+                                <img src="images/productCart/prod_cart_2.png" width="94" height="126" alt="">
+                                  
+                            </td>
+                            <td class="">
+                                <p class="prod-category">women</p>
+                                <p class="prod-name">flora print wrap dress</p>
+                                <p>color : <span class="value"> Blue </span> </p>
+                                <p>size : <span class="value"> 42 </span> </p>
+                            </td>
+                            <td class="Price">$67.50</td>
+                            <td class="quantity">
+                                <a href="" class=""><i class="fa fa-minus minus-product"></i></a>
+                                <span class="quantityProduct"> 1 </span>
+                                <a href="" class=""><i class="fa fa-plus-circle plus-product"></i></a>
+                            </td>
+                            <td class="totalPrice">$67.50</td>
+                        </tr>
+
+                        <!-- order 3 -->
+                        <tr>
+                            <td class="cancel-icon">
+                                <a href=""><i class="fa fa-times-circle"></i></a>
+                            </td>
+                            <td>
+                                <!-- width="94" height="126" -->
+                                <img src="images/productCart/prod_cart_3.png" width="94" height="126" alt="">
+                                  
+                            </td>
+                            <td class="">
+                                <p class="prod-category">women</p>
+                                <p class="prod-name">flora print wrap dress</p>
+                                <p>color : <span class="value"> Blue </span> </p>
+                                <p>size : <span class="value"> 42 </span> </p>
+                            </td>
+                            <td class="Price">$67.50</td>
+                            <td class="quantity">
+                                <a href="" class=""><i class="fa fa-minus minus-product"></i></a>
+                                <span class="quantityProduct"> 1 </span>
+                                <a href="" class=""><i class="fa fa-plus-circle plus-product"></i></a>
+                            </td>
+                            <td class="totalPrice">$67.50</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <!-- End Product Orders table  -->
+            </div>
+            <div class="col-lg-3 cart-left">
+                <p class="title-totalCart">CART TOTALS</p>
+                <div class="flex-div">
+                    <span class="text-left">CART TOTALS</span> 
+                    <span class="text-right">$1,650.00</span>
+                </div>
+                <div class="flex-div">
+                    <span>Shipping</span> 
+                    <span >$20.00</span>
+                </div>
+                <hr>
+                <div  class="title-totalCart flex-div">
+                    <span >Total</span>
+                    <span class="num">$20.00</span>
+                </div>
+                <!--  -->
+                <div>   
+                    <div class="subscribe-right">
+                        <p>Do you have a promo code?</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Code">
+                            <span class="input-group-btn">
+                                <button class="btn" type="button">Apply</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- check out button -->
+                <div class="btn-checkout-div">
+                    <a href="" class="btn btn-checkout">checkout</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Start script sorce for jquiry & bootstrap & my owne javascript -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/myJS.js"></script>
+    <!-- End script sorce for jquiry & bootstrap & my owne javascript -->
+
+</body>
+</html>
