@@ -1,0 +1,89 @@
+/* Start offer date section style */
+.offer{
+    position: relative;
+    background-image: url('images/background.png');
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 20px;
+}   
+.text-offer-margin{
+    position: absolute;
+    left: 100px;
+    bottom: -500px;
+    width: 450px;
+    height: 150px;
+    
+}
+.offer h1{
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F98065;
+}
+/* End offer date section style */
+
+/* Start offer product section style */
+.offers-section{
+    margin-top: 20px;
+}
+.title-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title-section span{
+    font-size: 48px;
+}
+.title-section a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #262626;
+}
+.title-section a:hover{
+    font-size: 18px;
+}
+/* End offer product section style */
+
+
+/* Start main Card offer style */
+.card-offer{
+    border: solid 0.5px #eee;
+    border-radius: 25px;
+}
+/* End main Card offer style */
+
+
+/* Start image offer style */
+.img-offer img{
+    transform: rotate(-30deg);
+    /* transform: rotate(-30%); */
+}
+/* End image offer style */
+
+.text-offer h5{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.text-offer h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-offer p {
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-offer p span{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F98065;
+}
+.text-offer a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #262626;
+}
+.text-offer a:hover{
+    font-size: 26px;
+}

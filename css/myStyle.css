@@ -110,6 +110,10 @@ border: none;
 /* End body style for general component in all pages */ 
 
     /* Start features section  style */
+    .features{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .features .card{
         height: 110px;
         background-color: #FFFFFF;
@@ -117,13 +121,11 @@ border: none;
         border-radius: 25px;
         border: #000000;
     }
-
     .features .card-body h5{
         font-weight: bold;
         color: #262626;
         font-family: Montserrat;
     }
-
     .features .card-body p{
         color: #262626;
         font-size: 14px;
@@ -176,62 +178,7 @@ border: none;
 /* End body style for general component in all pages */
 
 
-/* Start footer style for all pages */
 
-    footer{
-        background-color: #FFEDE0;
-    }
-
-    /* Start copyRight div style sheet */
-    .downloads_links{
-        padding-top: 50px;
-        /* padding-bottom: 50px; */
-    }
-    .links_info h3{
-        font-size: 18px;
-        font-weight: bold;
-        color: #262626;
-    }
-    .links_info ul{
-        list-style: none;
-    }
-    .links_info li a{
-        font-size: 14px;
-        font-weight: normal;
-        color: #262626;
-    }
-    .links_info li a:hover{
-        text-decoration: none;
-        font-weight: bold;
-    }
-    /* End copyRight div style sheet */
-
-    /* Start copyRight div style sheet */
-    .copyright{
-        height: 70px;
-        line-height: 70px;
-    }
-    .imgVisa{
-        padding: 10px;
-        float: left;
-    }
-    .imgCredit{
-        padding: 10px;
-        float: left;
-    }
-    .imgPaypal{
-        padding: 10px;
-        float: left;
-        
-    }
-    footer a{
-        color: black;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    /* End copyRight div style sheet */
-
-/* End footer style for all pages */
 
 /* Start Privacy and Policy style */
 .privacy-header{
@@ -265,6 +212,7 @@ border: none;
 /* Start About Us style*/
 .mainContent-about{
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .about-content{
     margin-top: 20px;
@@ -283,3 +231,88 @@ border: none;
     font-weight: bold;
 }
 /* End About Us style*/
+
+/* Start Contact Us Page Style */
+.mainContactUs{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.leftsection label{
+    font-size: 24px;
+    color: #F98065;
+}
+.rightsection .text-contactUs{
+    padding-left: 100px;  
+    padding-bottom: 20px; 
+}
+.rightsection .text-contactUs h1, .rightsection .text-contactUs p{
+    color: #F98065;
+}
+.rightsection .text-contactUs h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-contactUs{
+    margin-left: -30px;
+}
+/* End Contact Us Page Style */
+
+/* Start footer style for all pages */
+
+footer{
+    background-color: #FFEDE0;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+/* Start copyRight div style sheet */
+.downloads_links{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+}
+.links_info h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #262626;
+}
+.links_info ul{
+    list-style: none;
+}
+.links_info li a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #262626;
+}
+.links_info li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* End copyRight div style sheet */
+
+/* Start copyRight div style sheet */
+
+.copyright{
+    height: 70px;
+    line-height: 70px;
+}
+.imgVisa{
+    padding: 10px;
+    float: left;
+}
+.imgCredit{
+    padding: 10px;
+    float: left;
+}
+.imgPaypal{
+    padding: 10px;
+    float: left;
+    
+}
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* End copyRight div style sheet */
+
+/* End footer style for all pages */

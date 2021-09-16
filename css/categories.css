@@ -90,3 +90,33 @@
     margin-bottom: 15px;
 }
 /* End category sales 3-cards */
+
+/* Start My Wish list category style */
+.big-heart{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.big-heart svg{
+    transform: rotate(20deg);
+    
+}
+.small-heart{
+    margin-left: 50px;
+    margin-top: -80px;
+}
+
+.img-wishlist{
+    width: 248px;
+    height: 330px;
+}
+.heart_style{
+    font-size: 40px;
+    color: #F98065;
+    border: solid 2px #eee;
+    border-radius: 50%;
+    padding: 10px;
+    /* text-align: right; */
+}
+/* End My Wish list category style  */
+
+/* Start  */

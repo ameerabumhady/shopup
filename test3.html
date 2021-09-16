@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Start links for style sheet bootstrap & font awesome & my owne Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/homeComponent.css">
+    <!-- End links for style sheet bootstrap & font awesome & my owne Style -->
+
+    <style>
+        .offer{
+            background-image: url('images/background.png');
+            background-size: cover;
+        }
+        fieldset{
+            width: 350px;
+            height: 100px;
+            border: solid 1px black;
+            margin-top: 20px;
+        }
+        .time-text, .time-text span{
+            font-size: 40px;
+            font-weight: bold;
+            color: #F98065;
+        }
+        .time-names, .time-names span{
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #F98065;
+        }
+        .time-offer-design{
+            width: 348px;
+            height: 100px;
+            border: solid 1px #F98065;
+            border-radius: 15px;
+            padding: 10px 20px;
+
+            margin-top: 25px;
+            position: relative;
+        }
+        .title-time{
+            position: absolute;
+            top: -20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #F98065;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Start offer date section -->
+    <div class="container offer">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="text-offer-margin">
+                    <h1>Shop now</h1>
+                    <p>and get an instant 15% discount on all products for a limited time</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <!-- <fieldset>
+                    <legend>Offer ends in..</legend>
+                    <label for="">03</label>
+                    <label for="">01</label>
+                    <label for="">26</label>
+                    <label for="">50</label>
+                    <br>
+                    <label for=""></label>
+                </fieldset> -->
+                <div class="time-offer-design">
+                    <p class="time-text">
+                        <span>03</span> : <span>01</span> : <span>26</span> : <span>50</span>
+                    </p>
+                    <p class="time-names">
+                        <span>days</span> &nbsp; &nbsp; <span>hrs</span> &nbsp; &nbsp; <span>min</span> &nbsp; &nbsp; <span>sec</span>
+                    </p>
+                    <span class="title-time">Offer ends in..</span>
+                </div>
+                  
+            </div>
+        </div>
+    </div>
+    <!-- End offer date section -->
+
+    <!-- Start script sorce for jquiry & bootstrap & my owne javascript -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/myJS.js"></script>
+    <!-- End script sorce for jquiry & bootstrap & my owne javascript -->
+    
+</body>
+</html>

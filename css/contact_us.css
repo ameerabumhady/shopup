@@ -1,7 +1,22 @@
+.mainContactUs{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 .leftsection label{
     font-size: 24px;
     color: #F98065;
 }
-.rightsection{
-    
+.rightsection .text-contactUs{
+    padding-left: 100px;  
+    padding-bottom: 20px; 
+}
+.rightsection .text-contactUs h1, .rightsection .text-contactUs p{
+    color: #F98065;
+}
+.rightsection .text-contactUs h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-contactUs{
+    margin-left: -30px;
 }
