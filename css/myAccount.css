@@ -1,8 +1,9 @@
 .myAccount-side-bar{
     border-radius: 20px;
     background-color: #FFFFFF;
-    margin: 15px 15px 15px 0;
+    margin-top: 20px;
     padding-bottom: 10px;
+    box-shadow: 10px 10px 10px 10px #FAFAFA;
 }
 
 .myAccount-side-bar h2{
@@ -41,8 +42,10 @@
 .myAccount-right-section{
     border-radius: 20px;
     background-color: #FFFFFF;
-    margin: 15px 0 15px 15px;
+    margin: 20px 0 15px 15px;
     padding-bottom: 50px;
+    padding-top: 20px;
+    box-shadow: 10px 10px 10px 10px #FAFAFA;
 }
 .title-right-section{
     margin-top: 10px;

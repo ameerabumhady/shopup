@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Start links for style sheet bootstrap & font awesome & my owne Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <!-- <link rel="stylesheet" href="css/homeComponent.css"> -->
+    <!-- End links for style sheet bootstrap & font awesome & my owne Style -->
+    <style>
+        .virificationCode, .loginMobile{
+            width: 40%;
+            border-radius: 25px;
+            background-color: #FFFFFF;
+            text-align: center;
+            padding: 50px;
+            margin: 100px auto;
+        }
+        .virificationCode .close,
+        .loginMobile .close{
+            width: 40px;
+            height: 40px;
+            border: solid 1px black;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .virificationCode h1,
+        .loginMobile h1{
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        .virificationCode p,
+        .loginMobile p{
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .virificationCode p span,
+        .loginMobile p span{
+            color: #F98065;
+        }
+        .virificationCode form,
+        .loginMobile form{
+            margin-top: 40;
+            margin-bottom: 40;
+        }
+        .virificationCode form label,
+        .loginMobile form label{
+            font-size: 16px;
+            text-align: left;
+        }
+        .virificationCode form .inMobileNum,
+        .loginMobile form .inMobileNum{
+            width: 90%;
+            height: 60px;
+            background-color: #F8F8F8;
+            border: solid 1px #E8E8E8;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+        }
+        .loginMobile form .btn-submit{
+            width: 250px;
+            height: 60px;
+            color: #FFFFFF;
+            font-weight: bold;
+            background-color: #F98065;
+            border: solid 1px #F98065;
+            border-radius: 15px;
+            padding: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Start virification Code section -->
+    <div class="loginMobile">
+        <button class="close" id="hideLoginMobile">x</button>
+        <br>
+        <h1>login now</h1>
+        <p> Please enter your phone number to log in </p>
+        <form action="">
+            <label for="">Mobile Number</label>
+            <input class="inMobileNum" type="text" name="" id="mobileNumber" maxlength="10" min="0" max="9">
+            
+
+            <input class="btn-submit" type="submit" value="VIRIFY" >
+        </form>
+        <p >
+            By tapping Verify, an SMS may be sent. Message & data rates may apply.
+        </p>
+        
+    </div>
+    <!-- End virification Code section -->
+
+    <!-- Start script sorce for jquiry & bootstrap & my owne javascript -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/myJS.js"></script>
+    <!-- End script sorce for jquiry & bootstrap & my owne javascript -->
+
+
+</body>
+</html>

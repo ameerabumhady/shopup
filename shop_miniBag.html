@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Start links for style sheet bootstrap & font awesome & my owne Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/homeComponent.css">
+    <!-- End links for style sheet bootstrap & font awesome & my owne Style -->
+
+    <style>
+        .shoping_bag{
+            background-color: #FFFFFF;
+            width: 370px;
+            border-radius: 25px;
+            padding-bottom: 20px;
+        }
+        .shoping_bag h1{
+            background-color: #F2F2F2;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 25px;
+        }
+        .shoping_bag>p{
+            font-size: 14px;
+            margin: 20px;
+        }
+        .shoping_bag p span{
+            color: #F98065;
+        }
+
+        .shop_mini{
+            padding: 20px;
+            display: flex;
+            justify-content: start;
+        }
+        .shop_mini .img-shopMini{   
+            border: solid 1px #E8E8E8;
+            border-radius: 15px;
+            margin-right: 15px;
+        }
+        .total_price{
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .cancel-icon{
+            margin-left: 30px;
+        }
+        .cancel-icon i{
+            
+            font-size: 30px;
+            line-height: 120px;
+        }
+        .sbutotal{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sbutotal-text{
+            font-size: 17px;
+        }
+        .sbutotal-value{
+            font-size: 21px;
+            color: #F98065;
+        }
+        .btn-keep-shop{
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 25px;
+            border: #F5F5F5;
+            padding: 20px;
+            background-color: #F5F5F5;
+        }
+        .btn-checkout{
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 25px;
+            border: #F98065;
+            padding: 20px;
+            background-color: #F98065;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="shoping_bag">
+
+        <h1>shopping bag</h1>
+        <p>You have <span>2 items</span> in your bag</p>
+        
+        <!-- shop mini number 1 -->
+        <div class="shop_mini">
+            <div class="">
+                <!-- width="61" height="82" -->
+                <img src="images/home/miniBag/miniBag_1.png" class="img-shopMini">
+            </div>
+            <div>
+                <p class="prod-name">flora print wrap dress</p>
+                <p>color : <span class="value"> Blue </span> </p>
+                <p>size : <span class="value"> 42 </span> </p>
+                <p>qty : <span class="value"> 42 </span> </p>
+                <p class="total_price">$21.50</p>
+            </div>
+            <div class="cancel-icon">
+                <a href=""><i class="fa fa-times-circle"></i></a>
+            </div>
+        </div>
+
+        <!-- shop mini number 2 -->
+        <div class="shop_mini">
+            <div class="">
+                <!-- width="61" height="82" -->
+                <img src="images/home/miniBag/miniBag_2.png" class="img-shopMini">
+            </div>
+            <div>
+                <p class="prod-name">flora print wrap dress</p>
+                <p>color : <span class="value"> Blue </span> </p>
+                <p>size : <span class="value"> 42 </span> </p>
+                <p>qty : <span class="value"> 42 </span> </p>
+                <p class="total_price">$21.50</p>
+            </div>
+            <div class="cancel-icon">
+                <a href=""><i class="fa fa-times-circle"></i></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="sbutotal">
+            <p class="sbutotal-text">Subtotal</p>
+            <p class="sbutotal-value">$54.00</p>
+        </div>
+
+        <hr>
+
+        <div>
+            <button class="btn-keep-shop">keep shopping</button>
+            <button class="btn-checkout">checkout</button>
+        </div>
+    </div>
+
+    <!-- Start script sorce for jquiry & bootstrap & my owne javascript -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/myJS.js"></script>
+    <!-- End script sorce for jquiry & bootstrap & my owne javascript -->
+
+</body>
+</html>

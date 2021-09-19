@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Start links for style sheet bootstrap & font awesome & my owne Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="css/homeComponent.css">
+    <!-- End links for style sheet bootstrap & font awesome & my owne Style -->
+
+    <style>
+        .accessCollection{
+            position: relative;
+            background: linear-gradient(to top, rgba(255,255,255,0) 20%,
+              rgba(255,255,255,0.1)), url('images/home/background_accessCollection.png');
+        }
+        .shopCollection{
+            position: relative;
+            background: linear-gradient(to top, rgba(255,255,255,0) 20%,
+              rgba(255,255,255,0.1)), url('images/home/background_shopCollection.png');
+        }
+        .Collection{
+            /* background-image: url('images/home/background_accessCollection.png');
+            background-image: linear-gradient(to right, #000000, #e9e7e7); */
+            
+            width: 100%;
+            height: 260px;
+            background-size: cover;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 5px;
+        }
+        .Collection p{
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #FFFFFF;
+            width: 180px;
+        }
+        .accessCollection p, .shopCollection p{
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+        }
+        .Collection p span{
+            font-size: 16px;
+            color: #FFFFFF;           
+        }
+        .Collection a{
+            font-size: 16px;
+            text-transform: uppercase;
+            color: #F98065;
+            padding: 15px 20px;
+            border: solid 1px #F98065;
+            border-radius: 20px;
+        }
+        .accessCollection a{
+            position: absolute;
+            bottom: 38px;
+            right: 105px;
+        }
+        .accessCollection a:hover{
+            text-decoration: none;
+            background-color: #FFFFFF;
+        }
+        .shopCollection a{
+            position: absolute;
+            bottom: 38px;
+            right: 105px;
+
+            background-color: #F98065;
+            color: #FFFFFF;
+        }
+        .shopCollection a:hover{
+            text-decoration: none;
+            background-color: #FFFFFF;
+            color: #F98065;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="accessCollection Collection">
+                    <div class="text-accessCol_">
+                        <p>
+                            Accessories Collection <span>Product </span> 
+                        </p>
+                        <div class="clear-floating">
+                            <a href="">view all products</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="shopCollection Collection">
+                    <div class="">
+                        <p>
+                            Lorem Ipsum is simply dummy text 
+                        </p>
+                        <div class="clear-floating">
+                            <a href="">Shop collection</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+                <div class="col-lg-6">
+                    <img src="images/home/women_img_offers.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-winter">
+                        <h1>20% Off Winter sale</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reprehenderit perspiciatis, quisquam voluptatum fugit nostrum inventore culpa consequatur quibusdam, ipsum molestiae adipisci, cumque tempore praesentium totam aliquid optio aliquam alias!</p>
+                    </div>
+                    <!-- button for add to shop and add fav. -->
+                    <div>
+                        <a href="">shop now</a>
+                        <a href=""><i class="fa fa-heart heart_style" aria-hidden="true"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start script sorce for jquiry & bootstrap & my owne javascript -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/myJS.js"></script>
+    <!-- End script sorce for jquiry & bootstrap & my owne javascript -->
+
+</body>
+</html>

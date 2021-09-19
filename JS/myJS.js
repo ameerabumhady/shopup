@@ -1,5 +1,15 @@
 $(document).ready(function()
 {
+  // hide virification Code modal
+  $("#hidevirificationCode").click(function(){
+    $(".virificationCode").hide();
+  });
+
+  // hide login by Mobile modal
+  $("#hideLoginMobile").click(function(){
+    $(".loginMobile").hide();
+  });
+
 	$(document).on('click','.list-down-btn',function(event){
   	event.preventDefault();
     var target = $(this).attr('data-toggle');
@@ -15,6 +25,7 @@ $(document).ready(function()
     $(".modal").show();
   });
 
+  
   // $(document).on('click','.dropdown',function(event){
   // 	event.preventDefault();
   //   var target = $(this).attr('data-toggle');
