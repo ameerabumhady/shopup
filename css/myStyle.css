@@ -32,10 +32,10 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-/* .flex-nav{
+.flex-nav{
     display: flex;
     justify-content: space-between;
-} */
+}
 
 .mynavbare{
     margin-top: 0;
@@ -81,6 +81,7 @@ body{
 }
 .inputMyStyle{
     border-radius: 50px;
+    width: 300px;
     height: 50px;
     border: none;
 }
@@ -115,11 +116,13 @@ border: none;
         margin-bottom: 50px;
     }
     .features .card{
-        height: 110px;
+        min-height: 110px;
         background-color: #FFFFFF;
         padding: 10px;
+        margin-bottom: 10px;
         border-radius: 25px;
-        border: #000000;
+        /* border: #424141; */
+        box-shadow: 10px 10px 10px 10px #FAFAFA;
     }
     .features .card-body h5{
         font-weight: bold;
@@ -135,7 +138,7 @@ border: none;
 
     /* Start Subscribe newslette section  style */
     .subscribe_letter{
-        height: 200px;
+        min-height: 200px;
         background-color: #FFFFFF;
         border: #707070;
         border-radius: 15px;
@@ -211,7 +214,7 @@ border: none;
 
 /* Start About Us style*/
 .mainContent-about{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 .about-content{
@@ -257,62 +260,3 @@ border: none;
 }
 /* End Contact Us Page Style */
 
-/* Start footer style for all pages */
-
-footer{
-    background-color: #FFEDE0;
-    padding-bottom: 20px;
-    margin-top: 50px;
-}
-
-/* Start copyRight div style sheet */
-.downloads_links{
-    padding-top: 50px;
-    /* padding-bottom: 50px; */
-}
-.links_info h3{
-    font-size: 18px;
-    font-weight: bold;
-    color: #262626;
-}
-.links_info ul{
-    list-style: none;
-}
-.links_info li a{
-    font-size: 14px;
-    font-weight: normal;
-    color: #262626;
-}
-.links_info li a:hover{
-    text-decoration: none;
-    font-weight: bold;
-}
-/* End copyRight div style sheet */
-
-/* Start copyRight div style sheet */
-
-.copyright{
-    height: 70px;
-    line-height: 70px;
-}
-.imgVisa{
-    padding: 10px;
-    float: left;
-}
-.imgCredit{
-    padding: 10px;
-    float: left;
-}
-.imgPaypal{
-    padding: 10px;
-    float: left;
-    
-}
-footer a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-/* End copyRight div style sheet */
-
-/* End footer style for all pages */

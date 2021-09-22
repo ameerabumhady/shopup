@@ -20,3 +20,17 @@
 .img-contactUs{
     margin-left: -30px;
 }
+.btn-send{
+    font-size: 20px;
+    background-color: #F98065;
+    color: #FFFFFF;
+}
+.leftsection input,
+.leftsection button,
+.leftsection select{
+    height: 60px;
+    border-radius: 15px;
+}
+.leftsection textarea{
+    border-radius: 15px;
+}

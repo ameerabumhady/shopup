@@ -25,9 +25,9 @@
     position: relative
 }
 
-.track .step .active:before {
+/* .track .step .active:before {
     background: #FF5722
-}
+} */
 
 .track .step::before {
     height: 7px;
@@ -40,9 +40,12 @@
 
 .track .step.active .icon {
     background: #F98065;
-    color: #fff
+    color: #fff;
 }
-
+.track .step.finshed .icon {
+    background: #262626;
+    color: #fff;
+}
 .track .icon {
     display: inline-block;
     width: 40px;
@@ -76,6 +79,7 @@
     box-shadow: 10px 10px 10px 10px #FAFAFA;
     padding: 20px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 .table thead{
     text-transform: uppercase;
@@ -139,6 +143,7 @@
     background-color: #FFFFFF;
     box-shadow: 10px 10px 10px 10px #FAFAFA;
     padding: 20px;
+    margin-top: 20px;
 }
 .cart-left .title-totalCart{
     font-size: 24px;
@@ -166,6 +171,7 @@
     background-color: #F98065;
     border-radius: 15px;
 }
+
 /* Start check out delivery style */
 .flex-div .img-checkout{   
     border: solid 1px #E8E8E8;
@@ -188,10 +194,10 @@
     margin-top: 20px;
     border-radius: 15px;
 }
-.btn-backToHome-div{
+.btn-back-div{
     margin-top: 100px;
 }
-.btn-backToHome{
+.btn-back{
     width: 200px;
     height: 60px;
     line-height: 40px;
@@ -203,3 +209,11 @@
     border-radius: 15px;
 }
 /* End  check out confirmation style */
+
+/* start check out  Delivery Style */
+.cart-right form input{
+    height: 60px;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+}
+/* End check out  Delivery Style */

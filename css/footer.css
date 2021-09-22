@@ -1,28 +1,95 @@
-footer{
-    background-color: #FFEDE0;
+/* Start features section  style */
+.features{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.socialMedia{
-    font-size: 18px;
+.features .card{
+    min-height: 110px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    /* border: #424141; */
+    box-shadow: 10px 10px 10px 10px #FAFAFA;
+}
+.features .card-body h5{
     font-weight: bold;
-    margin-top: 20px;
+    color: #262626;
+    font-family: Montserrat;
 }
-.socialMedia span{
-    text-transform: uppercase;
-    margin-right: 10px;
+.features .card-body p{
+    color: #262626;
+    font-size: 14px;
 }
-.socialMedia a i{
-    font-size: 30px;
+/* End features section  style */
+
+
+/* Start Subscribe newslette section  style */
+.subscribe_letter{
+    min-height: 200px;
+    background-color: #FFFFFF;
+    border: #707070;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.down_android_apple{
-    margin-top: 10px;
+.subscribe_letter .subscribe-left{
+    padding: 30px;
 }
-.down_android_apple img{
-     border-radius: 15px;   
+.subscribe_letter .subscribe-left h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #262626;
+    border: #707070;
 }
-/* Start links div style sheet */
+.subscribe_letter .subscribe-left p{
+    font-size: 24px;
+    color: #262626;
+    border: #707070;
+}
+/* .subscribe_letter .subscribe-right */
+.subscribe-right{
+    padding: 60px 50px;
+}
+/* .subscribe_letter .subscribe-right input */
+.subscribe-right input{
+    border-radius: 15px;
+}
+/* .subscribe_letter .subscribe-right button */
+.subscribe-right button{
+    background-color: #F98065;
+    color: #FFFFFF;
+    font-size: 21;
+    font-weight: bold;
+    border-radius: 15px;
+}
+/* End Subscribe newslette section  style */
+
+/* Start footer style for all pages */
+footer{
+    /* background-color: #FFEDE0; */
+    background-color: #FFF9EE;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Start copyRight div style sheet */
 .downloads_links{
     padding-top: 50px;
     /* padding-bottom: 50px; */
+}
+.socialMedia span,
+.socialMedia a i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.logo_downloads{
+    max-height: 150px;
+    min-width: 265px;
+}
+.links_info{
+    min-height: 150px;
 }
 .links_info h3{
     font-size: 18px;
@@ -41,34 +108,45 @@ footer{
     text-decoration: none;
     font-weight: bold;
 }
-/* End links div style sheet */
+.down_android_apple a img{
+    border-radius: 15px;
+}
+/* End copyRight div style sheet */
 
 /* Start copyRight div style sheet */
+
 .copyright{
-    height: 70px;
+    min-height: 70px;
     line-height: 70px;
     background-color: #FFEDE0;
 }
 .right_footer{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
 }
+@media only screen and (max-width: 751px) {
+    .right_footer {
+        justify-content: center;
+    }
+  }
 .imgVisa{
-    padding: 10px;
-    float: left;
+    padding: 0px 10px;
+    /* float: left; */
 }
-.imgCredit{
-    padding: 10px;
+/* .imgCredit{
+    padding: 0px 10px;
     float: left;
 }
 .imgPaypal{
-    padding: 10px;
-    float: left;
+    padding: 0px 10px;
     
-}
-footer a{
+} */
+.copyright a{
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
+
 /* End copyRight div style sheet */
+
+/* End footer style for all pages */

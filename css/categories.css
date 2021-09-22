@@ -5,9 +5,20 @@
     border-radius: 25px;
     margin-top: 20px;
 }
+@media screen and (max-width: 576px) {
+    .headContent-cat {
+        height: 200px;
+    }
+}
 .category_header{   
     padding-left: 100px;
     padding-top: 80px;
+}
+@media screen and (max-width: 576px) {
+    .category_header{
+        padding-left: 50px;
+        padding-top: 20px;
+    }
 }
 .category_header h2, h1{
     font-family: Montserrat;
